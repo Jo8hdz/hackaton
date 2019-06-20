@@ -1,0 +1,56 @@
+<html>
+<head>
+    <title>PotroExpress | Registrate (Alumnado)</title>
+    
+    <link href="Resource/Ccs/MenuD.css" rel="stylesheet">
+    <link rel="stylesheet" href="Resource/Ccs/estilo.css">
+    <link rel="shortcut icon" type="image/ico" href="Resource/Logos/favicon.ico"/>
+    
+    <style type="text/css">  
+        @font-face {
+        font-family: "bebas";
+        src: url("bebas.ttf") format("truetype");
+        }       
+        .fuenteosvaldo{font-family:"bebas";font-size: 20px;}
+    </style>
+    
+    <script type="text/javascript">
+        function pulsar() {
+            alert("Te has registrado, inicia sesion en 'INGRESAR'");
+            }
+    </script>
+    
+</head>
+
+<body>
+<header>
+        <div class="fuenteosvaldo">
+		<nav class="navegacion">
+			<ul class="menu">
+				<li><a href="index.html">Inicio</a></li>
+				<li><a href="#">¿Quienes Somos?</a></li>
+                <li><a href="trabaja.html">Trabajar con nosotros</a></li>
+                <li><a href="ingresar.html">Ingresar</a></li>
+				<li><a href="alumnado.html">Registrarse (Alumnado)</a></li>
+			</ul>
+		</nav>
+    </div>
+</header>
+    <br>
+    <br>
+    <center><p style="font-family: bebas; font-size: 35px;color: #333;">Registrate (Alumnos)</p></center>
+    <form action="">
+    <br>
+    <input type="text" name="UsuarioAlumno" placeholder="Usuario" style="font-family: century gothic">
+    <input type="password" name="ContraseñaAlumno" placeholder="Contraseña" style="font-family: century gothic">
+    <input type="text" name="MatriculaAlumno" placeholder="Matricula" style="font-family: century gothic">
+    <input type="text" name="DireccionAlumno" placeholder="Direccion actual" style="font-family: century gothic">
+    <input type="checkbox" name="terms" id="checkbox"><font style="font-family:'century gothic'; font-size:'8';color:#fff">Acepto el uso de mis datos guardados en el SII UPP para la configuracion de rutas</font>
+    <br>
+    <br>
+    <input type="button" value="Enviar" id="boton" onclick="pulsar()">
+    </form>
+</body>
+
+
+</html>
